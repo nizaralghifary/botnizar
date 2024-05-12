@@ -7,7 +7,7 @@
     "bot": "nodemon main.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nizar Alghifary",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
