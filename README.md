@@ -19,7 +19,7 @@ cd botnizar
 **Install Library**
 
 ```bash
-npm i
+npm install
 ```
 
 **Set Up Environment Variable**
