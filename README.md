@@ -9,10 +9,8 @@ Pastiin udah install nodejs ya
 **Clone Repository**
 
 ```bash
-git clone https://github.com/Nxyzr08/botnizar
-```
-```bash
-cd botnizar
+$ git clone https://github.com/nizaralghifary/botnizar
+\n $ cd botnizar
 ```
 
 **Install Library**
