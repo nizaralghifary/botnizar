@@ -10,13 +10,13 @@ Pastiin udah install nodejs ya
 
 ```bash
 $ git clone https://github.com/nizaralghifary/botnizar
-\n $ cd botnizar
+$ cd botnizar
 ```
 
 **Install Library**
 
 ```bash
-npm install
+$ npm install
 ```
 
 **Set Up Environment Variable**
@@ -30,5 +30,5 @@ TELEGRAM_TOKEN = YOUR_TELEGRAM_TOKEN
 **Run Bot**
 
 ```bash
-npm run bot
+$ npm run bot
 ```
