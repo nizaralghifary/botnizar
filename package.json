@@ -1,0 +1,17 @@
+{
+  "name": "botnizar",
+  "version": "1.1.0",
+  "description": "Bot telegram sederhana",
+  "main": "nizarBot.js",
+  "scripts": {
+    "test": "node nizarBot.js",
+    "bot": "nodemon nizarBot.js"
+  },
+  "author": "Nizar",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
