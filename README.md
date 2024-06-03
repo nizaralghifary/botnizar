@@ -25,6 +25,7 @@ Buat file `.env` terus tambahin :
 
 ```env
 TELEGRAM_TOKEN = YOUR_TELEGRAM_TOKEN
+WOLFRAM_ALPHA_API_KEY = YOUR_WOLFRAM_ALPHA_API
 ```
 
 **Run Bot**
