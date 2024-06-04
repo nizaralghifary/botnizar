@@ -1,6 +1,6 @@
 ## Telegram Bot
 
-Telegram bot nizar yang dibuat pake node js, untuk saat ini fiturnya baru bisa cek gempa aja berdasarkan data resmi BMKG.
+Telegram bot nizar yang dibuat pake Node.js, fitur: cek gempa berdasarkan data resmi BMKG, bisa menjawab soal matematika dari API Wolfram Alpha.
 
 ## Installation
 
