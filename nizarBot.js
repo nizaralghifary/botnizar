@@ -1,10 +1,22 @@
 require('dotenv').config();
 const axios = require('axios');
+const express = require('express');
+const cors = require('cors');
+const app = express();
 const TelegramBot = require('node-telegram-bot-api');
+
+app.use(express.json());
+app.use(cors({
+  origin: "*",
+}));
+
+app.get("/", (req, res) => {
+  res.json({ message: "nizar bot is running" });
+});
 
 const token = process.env.TELEGRAM_BOT_TOKEN;
 const wolframApiKey = process.env.WOLFRAM_ALPHA_API_KEY;
-
+console.log("Nizar Bot Ready!");
 const bot = new TelegramBot(token, { polling: true });
 
 const prefix = "/";
@@ -137,4 +149,8 @@ bot.on('message', async (msg) => {
       });
     }
   } 
+});
+
+app.listen(8002, () => {
+  console.log('Server is running on port 8002');
 });
